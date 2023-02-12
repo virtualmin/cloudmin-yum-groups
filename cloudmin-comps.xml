@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+    <id>cloudmin-kvm</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1024</display_order>
+    <name>Cloudmin KVM Virtualization Stack</name>
+    <description>Cloudmin with KVM and common dependencies</description>
+    <packagelist>
+      <packagereq type="mandatory">bind</packagereq>
+      <packagereq type="mandatory">bind-utils</packagereq>
+      <packagereq type="mandatory">bridge-utils</packagereq>
+      <packagereq type="mandatory">ca-certificates</packagereq>
+      <packagereq type="mandatory">ebtables</packagereq>
+      <packagereq type="mandatory">iptables</packagereq>
+      <packagereq type="mandatory">kvm</packagereq>
+      <packagereq type="mandatory">kvm-qemu</packagereq>
+      <packagereq type="mandatory">kvm-qemu-img</packagereq>
+      <packagereq type="mandatory">kvm-tools</packagereq>
+      <packagereq type="mandatory">libcgroup-tools</packagereq>
+      <packagereq type="mandatory">lsof</packagereq>
+      <packagereq type="mandatory">openssh-clients</packagereq>
+      <packagereq type="mandatory">openssl</packagereq>
+      <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
+      <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
+      <packagereq type="mandatory">perl-JSON-PP</packagereq>
+      <packagereq type="mandatory">perl-JSON-XS</packagereq>
+      <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
+      <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
+      <packagereq type="mandatory">perl-Module-Load</packagereq>
+      <packagereq type="mandatory">perl-parent</packagereq>
+      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
+      <packagereq type="mandatory">perl-XML-Simple</packagereq>
+      <packagereq type="mandatory">psmisc</packagereq>
+      <packagereq type="mandatory">qemu</packagereq>
+      <packagereq type="mandatory">qemu-img</packagereq>
+      <packagereq type="mandatory">qemu-kvm-core</packagereq>
+      <packagereq type="mandatory">qemu-kvm-tools</packagereq>
+      <packagereq type="mandatory">quota</packagereq>
+      <packagereq type="mandatory">unzip</packagereq>
+      <packagereq type="mandatory">zip</packagereq>
+      <packagereq type="default">awscli</packagereq>
+      <packagereq type="default">bzip2</packagereq>
+      <packagereq type="default">certbot</packagereq>
+      <packagereq type="default">cronie</packagereq>
+      <packagereq type="default">dhcp</packagereq>
+      <packagereq type="default">etckeeper</packagereq>
+      <packagereq type="default">fail2ban-firewalld</packagereq>
+      <packagereq type="default">fail2ban-server</packagereq>
+      <packagereq type="default">firewalld</packagereq>
+      <packagereq type="default">lm_sensors</packagereq>
+      <packagereq type="default">logrotate</packagereq>
+      <packagereq type="default">p7zip</packagereq>
+      <packagereq type="default">parted</packagereq>
+      <packagereq type="default">perl-Config-IniFiles</packagereq>
+      <packagereq type="default">perl-File-Basename</packagereq>
+      <packagereq type="default">perl-File-Path</packagereq>
+      <packagereq type="default">perl-IO-Tty</packagereq>
+      <packagereq type="default">perl-lib</packagereq>
+      <packagereq type="default">perl-open</packagereq>
+      <packagereq type="default">perl-Pod-Perldoc</packagereq>
+      <packagereq type="default">postfix</packagereq>
+      <packagereq type="default">python</packagereq>
+      <packagereq type="default">rsync</packagereq>
+      <packagereq type="default">tar</packagereq>
+      <packagereq type="default">whois</packagereq>
+      <packagereq type="default">xz</packagereq>
+    </packagelist>
+  </group>
+</comps>

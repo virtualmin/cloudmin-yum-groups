@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+    <id>cloudmincore</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1024</display_order>
+    <name>Cloudmin Core</name>
+    <description>Cloudmin core dependencies, including Webmin and Cloudmin</description>
+    <packagelist>
+      <packagereq type="mandatory">cloudmin-config</packagereq>
+      <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
+      <packagereq type="mandatory">perl-Module-Load</packagereq>
+      <packagereq type="mandatory">perl-parent</packagereq>
+      <packagereq type="mandatory">wbm-server-manager</packagereq>
+      <packagereq type="mandatory">webmin</packagereq>
+    </packagelist>
+  </group>
+</comps>
