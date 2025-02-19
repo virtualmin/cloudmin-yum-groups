@@ -14,12 +14,8 @@
       <packagereq type="mandatory">bridge-utils</packagereq>
       <packagereq type="mandatory">ca-certificates</packagereq>
       <packagereq type="mandatory">ebtables</packagereq>
-      <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">kvm</packagereq>
-      <packagereq type="mandatory">kvm-qemu</packagereq>
-      <packagereq type="mandatory">kvm-qemu-img</packagereq>
-      <packagereq type="mandatory">kvm-tools</packagereq>
-      <packagereq type="mandatory">libcgroup-tools</packagereq>
+      <packagereq type="mandatory">qemu-kvm</packagereq>
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">openssh-clients</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
@@ -34,10 +30,6 @@
       <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">perl-XML-Simple</packagereq>
       <packagereq type="mandatory">psmisc</packagereq>
-      <packagereq type="mandatory">qemu</packagereq>
-      <packagereq type="mandatory">qemu-img</packagereq>
-      <packagereq type="mandatory">qemu-kvm-core</packagereq>
-      <packagereq type="mandatory">qemu-kvm-tools</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">unzip</packagereq>
       <packagereq type="mandatory">zip</packagereq>
@@ -45,7 +37,6 @@
       <packagereq type="default">bzip2</packagereq>
       <packagereq type="default">certbot</packagereq>
       <packagereq type="default">cronie</packagereq>
-      <packagereq type="default">dhcp</packagereq>
       <packagereq type="default">etckeeper</packagereq>
       <packagereq type="default">fail2ban-firewalld</packagereq>
       <packagereq type="default">fail2ban-server</packagereq>
