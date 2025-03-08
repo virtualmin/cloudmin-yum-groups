@@ -6,7 +6,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <display_order>1024</display_order>
-    <name>Cloudmin KVM Virtualization Stack</name>
+    <name>Cloudmin KVM Stack</name>
     <description>Cloudmin with KVM and common dependencies</description>
     <packagelist>
       <packagereq type="mandatory">bind</packagereq>
