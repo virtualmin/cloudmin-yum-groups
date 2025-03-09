@@ -14,7 +14,6 @@
       <packagereq type="mandatory">bridge-utils</packagereq>
       <packagereq type="mandatory">ca-certificates</packagereq>
       <packagereq type="mandatory">ebtables</packagereq>
-      <packagereq type="mandatory">kvm</packagereq>
       <packagereq type="mandatory">qemu-kvm</packagereq>
       <packagereq type="mandatory">lsof</packagereq>
       <packagereq type="mandatory">openssh-clients</packagereq>
