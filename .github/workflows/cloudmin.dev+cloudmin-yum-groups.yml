@@ -6,10 +6,12 @@ on:
       - main
   release:
     types:
-      - published
+      - prereleased
+      - released
 
 env:
   IS_RELEASE: ${{ github.event_name == 'release' }}
+  IS_PRERELEASE: ${{ github.event.release.prerelease || false }}
 
   BUILD_DEPS: "curl"
   BUILD_BOOTSTRAP: "https://raw.githubusercontent.com/webmin/webmin-ci-cd/main/build/bootstrap.bash"
@@ -46,9 +48,10 @@ jobs:
 
           # Check testing flag
           testing=$([[ "${{ env.IS_RELEASE }}" == "false" ]] && echo "--testing" || echo "")
+          prerelease=$([[ "${{ env.IS_PRERELEASE }}" == "true" ]] && echo "--prerelease" || echo "")
 
           # Bootstrap build
-          source bootstrap.bash "$testing"
+          source bootstrap.bash "$testing" "$prerelease"
 
           # Re-sign
           cloud_sign_and_build_repos cloudmin.dev
