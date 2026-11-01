@@ -10,11 +10,20 @@
     <description>Cloudmin core dependencies, including Webmin and Cloudmin</description>
     <packagelist>
       <packagereq type="mandatory">cloudmin-config</packagereq>
+      <packagereq type="default">etckeeper</packagereq>
+      <packagereq type="mandatory">perl</packagereq>
+      <packagereq type="mandatory">perl-DBI</packagereq>
+      <packagereq type="mandatory">perl-DBD-SQLite</packagereq>
+      <packagereq type="mandatory">perl-XML-LibXML</packagereq>
       <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
       <packagereq type="mandatory">perl-Module-Load</packagereq>
       <packagereq type="mandatory">perl-parent</packagereq>
-      <packagereq type="mandatory">wbm-server-manager</packagereq>
+      <packagereq type="mandatory">perl-JSON-PP</packagereq>
+      <packagereq type="mandatory">perl-IO-Socket-SSL</packagereq>
+      <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
+      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
       <packagereq type="mandatory">webmin</packagereq>
+      <packagereq type="mandatory">webmin-server-manager</packagereq>
     </packagelist>
   </group>
 </comps>

@@ -9,54 +9,35 @@
     <name>Cloudmin KVM Stack</name>
     <description>Cloudmin with KVM and common dependencies</description>
     <packagelist>
-      <packagereq type="mandatory">bind</packagereq>
-      <packagereq type="mandatory">bind-utils</packagereq>
-      <packagereq type="mandatory">bridge-utils</packagereq>
       <packagereq type="mandatory">ca-certificates</packagereq>
-      <packagereq type="mandatory">ebtables</packagereq>
-      <packagereq type="mandatory">qemu-kvm</packagereq>
-      <packagereq type="mandatory">lsof</packagereq>
+      <packagereq type="mandatory">bsdtar</packagereq>
+      <packagereq type="mandatory">cronie</packagereq>
+      <packagereq type="mandatory">dnsmasq</packagereq>
+      <packagereq type="mandatory">nftables</packagereq>
+      <packagereq type="mandatory">fail2ban-server</packagereq>
+      <packagereq type="mandatory">python3-systemd</packagereq>
+      <packagereq type="mandatory">iproute</packagereq>
+      <packagereq type="mandatory">libvirt-client</packagereq>
+      <packagereq type="mandatory">libvirt-daemon-kvm</packagereq>
+      <packagereq type="mandatory">libvirt-daemon-config-network</packagereq>
+      <packagereq type="mandatory">libvirt-daemon-driver-network</packagereq>
+      <packagereq type="mandatory">libvirt-daemon-driver-nwfilter</packagereq>
+      <packagereq type="mandatory">libvirt-daemon-driver-storage-core</packagereq>
+      <packagereq type="mandatory">libvirt-daemon-driver-storage-logical</packagereq>
+      <packagereq type="mandatory">lvm2</packagereq>
       <packagereq type="mandatory">openssh-clients</packagereq>
+      <packagereq type="mandatory">openssh-server</packagereq>
       <packagereq type="mandatory">openssl</packagereq>
-      <packagereq type="mandatory">perl-Crypt-SSLeay</packagereq>
-      <packagereq type="mandatory">perl-DBD-MySQL</packagereq>
-      <packagereq type="mandatory">perl-JSON-PP</packagereq>
-      <packagereq type="mandatory">perl-JSON-XS</packagereq>
-      <packagereq type="mandatory">perl-Log-Log4perl</packagereq>
-      <packagereq type="mandatory">perl-LWP-Protocol-https</packagereq>
-      <packagereq type="mandatory">perl-Module-Load</packagereq>
-      <packagereq type="mandatory">perl-parent</packagereq>
-      <packagereq type="mandatory">perl-Time-HiRes</packagereq>
-      <packagereq type="mandatory">perl-XML-Simple</packagereq>
-      <packagereq type="mandatory">psmisc</packagereq>
-      <packagereq type="mandatory">quota</packagereq>
-      <packagereq type="mandatory">unzip</packagereq>
-      <packagereq type="mandatory">zip</packagereq>
-      <packagereq type="default">awscli</packagereq>
-      <packagereq type="default">bzip2</packagereq>
-      <packagereq type="default">certbot</packagereq>
-      <packagereq type="default">cronie</packagereq>
-      <packagereq type="default">etckeeper</packagereq>
-      <packagereq type="default">fail2ban-firewalld</packagereq>
-      <packagereq type="default">fail2ban-server</packagereq>
-      <packagereq type="default">firewalld</packagereq>
-      <packagereq type="default">lm_sensors</packagereq>
-      <packagereq type="default">logrotate</packagereq>
-      <packagereq type="default">p7zip</packagereq>
-      <packagereq type="default">parted</packagereq>
-      <packagereq type="default">perl-Config-IniFiles</packagereq>
-      <packagereq type="default">perl-File-Basename</packagereq>
-      <packagereq type="default">perl-File-Path</packagereq>
-      <packagereq type="default">perl-IO-Tty</packagereq>
-      <packagereq type="default">perl-lib</packagereq>
-      <packagereq type="default">perl-open</packagereq>
-      <packagereq type="default">perl-Pod-Perldoc</packagereq>
-      <packagereq type="default">postfix</packagereq>
-      <packagereq type="default">python</packagereq>
-      <packagereq type="default">rsync</packagereq>
-      <packagereq type="default">tar</packagereq>
-      <packagereq type="default">whois</packagereq>
-      <packagereq type="default">xz</packagereq>
+      <packagereq type="mandatory">perl-Sys-Guestfs</packagereq>
+      <packagereq type="mandatory">perl-Sys-Virt</packagereq>
+      <packagereq type="mandatory">perl-YAML-LibYAML</packagereq>
+      <packagereq type="mandatory">qemu-img</packagereq>
+      <packagereq type="mandatory">qemu-kvm</packagereq>
+      <packagereq type="mandatory">systemd</packagereq>
+      <packagereq type="mandatory">systemd-libs</packagereq>
+      <packagereq type="mandatory">xorriso</packagereq>
+      <packagereq type="mandatory" arch="aarch64">edk2-aarch64</packagereq>
+      <packagereq type="mandatory" arch="x86_64">edk2-ovmf</packagereq>
     </packagelist>
   </group>
 </comps>
