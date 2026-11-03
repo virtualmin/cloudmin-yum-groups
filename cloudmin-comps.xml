@@ -13,6 +13,7 @@
       <packagereq type="mandatory">bsdtar</packagereq>
       <packagereq type="mandatory">cronie</packagereq>
       <packagereq type="mandatory">dnsmasq</packagereq>
+      <packagereq type="mandatory">nfs-utils</packagereq>
       <packagereq type="mandatory">nftables</packagereq>
       <packagereq type="mandatory">fail2ban-server</packagereq>
       <packagereq type="mandatory">python3-systemd</packagereq>
